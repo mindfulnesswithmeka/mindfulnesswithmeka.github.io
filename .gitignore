@@ -1,2 +1,6 @@
 _site
 .jekyll-cache
+
+#for github pages
+Gemfile
+Gemfile.lock
