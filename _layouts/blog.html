@@ -12,13 +12,11 @@
     <div class="container">
         <div class="col-4 mx-auto">{{page.content | markdownify}}</div>
         <div class="row">
-            <ul class="list-group col-4 mx-auto">
+            <ul class="list-group col-lg-6 col-md-6 col-sm-7 col-xs-8 mx-auto">
                 {% for post in site.posts %}
                 <li class="list-group-item list-group-item-action">
                     <a href="{{ post.url }}">
-                        <row>
-                            <h5 class="mb-1">{{ post.title }}</h5>
-                        </row>
+                        <h5 class="mb-1">{{ post.title }}</h5>
                         <p class="mb-1">{{ post.description }}</p>
                         <span class="badge rounded-pill custom-bdg-secondary">
                             {{ post.date | date: "%B %-d, %Y"}}

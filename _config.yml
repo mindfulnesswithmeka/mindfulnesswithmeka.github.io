@@ -6,6 +6,7 @@ include: [_pages, _products]
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 sass:
   sass_dir: _sass
@@ -59,5 +60,3 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman
