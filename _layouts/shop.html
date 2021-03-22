@@ -11,7 +11,7 @@
 
     <div class="container">
         <div>{{page.content | markdownify}}</div>
-        <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+        <div class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
             {% for product in site.products %}
             <div class="col-2 card-item rounded m-1 p-2">
                 <a href="{{ product.url }}">
