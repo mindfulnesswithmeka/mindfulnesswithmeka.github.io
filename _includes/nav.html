@@ -1,0 +1,46 @@
+<!--
+    NOTE:
+    this is a bootstrap navbar
+    so this requires bootstrap css + js
+-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mindfulness with Meka</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+            <ul class="navbar-nav text-right align-items-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/shop">Shop</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://linktr.ee/Mindfulnesswithmeka">My Linktree</a>
+                </li>
+                <li class="nav-item dropdown text-end">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        {% for post in site.posts limit:3 %}
+                        <li><a class="dropdown-item" href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endfor %}
+                        <li class="dropdown-divider">
+                            <hr>
+                        </li>
+                        <li><a class="dropdown-item" href="/blog">All my posts</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

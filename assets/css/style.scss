@@ -1,0 +1,37 @@
+---
+---
+
+$primary: #00A6A6;
+$secondary: purple;
+$border-design-color: $secondary;
+$border-design-image: linear-gradient(45deg, $primary, $secondary) 1; 
+
+.container {
+    padding-top: 5px;
+}
+nav {
+    background-image: linear-gradient(to right, $primary , $secondary);
+    opacity: 0.85;
+}
+
+.navbar-brand {
+    color: $secondary !important;
+}
+
+li {
+    border-color: $border-design-color !important;
+}
+a {
+    text-decoration: none;
+    color: $primary !important;
+}
+.card-item {
+    border-color: $border-design-color !important;
+    border-style: solid;
+    border-width: 1px;
+    word-wrap: break-word;
+}
+
+.custom-bdg-secondary {
+    background-color: $secondary !important;
+}
