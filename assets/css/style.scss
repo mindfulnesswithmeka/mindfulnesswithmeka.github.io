@@ -32,6 +32,15 @@ a {
     word-wrap: break-word;
 }
 
-.custom-bdg-secondary {
+.custom-bg-secondary {
     background-color: $secondary !important;
+}
+
+.blog-content {
+    min-height: 90vh;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .25rem !important;
+    border-color: $border-design-color !important;
 }
