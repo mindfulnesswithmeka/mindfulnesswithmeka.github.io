@@ -43,4 +43,10 @@ a {
     border-width: 1px;
     border-radius: .25rem !important;
     border-color: $border-design-color !important;
+    position: relative;
+}
+
+.content-bottom {
+    position: absolute;
+    bottom: 0;
 }
