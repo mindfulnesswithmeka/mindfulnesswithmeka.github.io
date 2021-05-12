@@ -1,7 +1,7 @@
 ---
 title: About
-layout: about
+layout: page
 permalink: /about/
 ---
 
-about page
+About me
