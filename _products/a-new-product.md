@@ -1,7 +1,7 @@
 ---
-title: A new product
-description: A new product for this site
-price: $1
+title: Salt lamp
+description: Healing energy 
+price: $15
 link: lakhjsowepufhkjasdhfiuowehfiauewfgwyuegweiaufgawfwef baetraebaer
 ---
 
